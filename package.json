@@ -1,0 +1,28 @@
+{
+  "name": "duchain",
+  "version": "0.1.0",
+  "description": "duchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/villadora/duchain.git"
+  },
+  "keywords": [
+    "duchain"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "villadora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villadora/duchain/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  }
+}
